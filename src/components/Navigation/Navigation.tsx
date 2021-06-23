@@ -1,13 +1,6 @@
 import React, { useState } from "react";
-import {
-  NavbarToggler,
-  Collapse,
-  Nav,
-  Navbar,
-  NavbarBrand,
-  NavItem,
-  NavLink,
-} from "reactstrap";
+import { NavbarToggler, Collapse, Nav, Navbar, NavItem } from "reactstrap";
+import { StyledNavbarBrand, StyledNavLink } from "./styled";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,22 +8,22 @@ export const Navigation = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar light expand="md">
-      <NavbarBrand href="/">Courtney Amos</NavbarBrand>
+    <Navbar expand="md">
+      <StyledNavbarBrand href="/">Courtney Amos</StyledNavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} className="justify-content-end" navbar>
         <Nav navbar>
           <NavItem>
-            <NavLink href="/about/">About</NavLink>
+            <StyledNavLink href="/about/">About</StyledNavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/projects/">Projects</NavLink>
+            <StyledNavLink href="/projects/">Projects</StyledNavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/tools/">Tools</NavLink>
+            <StyledNavLink href="/tools/">Tools</StyledNavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/contact/">Contact</NavLink>
+            <StyledNavLink href="/contact/">Contact</StyledNavLink>
           </NavItem>
         </Nav>
       </Collapse>
