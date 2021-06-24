@@ -16,7 +16,7 @@ export const Experience: React.FC<Props> = ({
   details,
 }) => {
   return (
-    <div>
+    <div style={{ paddingTop: "50px" }}>
       <h2>{companyName}</h2>
       <h3>{jobTitle}</h3>
       <h4>
