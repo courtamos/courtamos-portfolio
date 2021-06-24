@@ -4,7 +4,7 @@ import { Experience } from "./Experience";
 export const About = () => {
   return (
     <section>
-      <h1>About</h1>
+      <h1 style={{ margin: "50px 0px" }}>About</h1>
       <div>
         <p>
           I’m a self-taught Front End Developer who’s been coding for xyz. Since
