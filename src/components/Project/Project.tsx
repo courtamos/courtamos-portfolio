@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectImage } from "./ProjectImage";
+import { Image } from "./Image";
 import { Technology } from "./Technology";
 import { Link } from "./Link";
 import project1 from "./images/project-1.png";
@@ -8,9 +8,9 @@ export const Project = () => {
   return (
     <section>
       <h1 style={{ margin: "50px 0px" }}>Projects</h1>
-      <ProjectImage
+      <Image
         projectImage={project1}
-        projectTitle="Title"
+        projectTitle="Trakr"
         projectDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
         incidunt nam saepe exercitationem ipsam sapiente temporibus
         consectetur ad harum quae, velit id voluptatem nesciunt

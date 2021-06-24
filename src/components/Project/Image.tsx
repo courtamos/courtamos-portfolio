@@ -1,4 +1,5 @@
 import React from "react";
+import "./image.scss";
 
 interface Props {
   projectImage: string;
@@ -6,13 +7,13 @@ interface Props {
   projectDescription: string;
 }
 
-export const ProjectImage: React.FC<Props> = ({
+export const Image: React.FC<Props> = ({
   projectImage,
   projectTitle,
   projectDescription,
 }) => {
   return (
-    <div>
+    <div className="project-wrapper">
       <figure className="project-image">
         <img src={projectImage} alt="project" />
         <figcaption>
