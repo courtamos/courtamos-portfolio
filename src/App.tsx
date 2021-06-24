@@ -3,6 +3,7 @@ import { Container } from "reactstrap";
 import { Navigation } from "./components/Navigation/Navigation";
 import { Banner } from "./components/Banner";
 import { About } from "./components/About/About";
+import { Project } from "./components/Project/Project";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navigation />
       <Banner />
       <About />
+      <Project />
     </Container>
   );
 };
