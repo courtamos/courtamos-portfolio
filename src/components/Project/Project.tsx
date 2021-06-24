@@ -11,22 +11,22 @@ export const Project = () => {
       <Image
         projectImage={project1}
         projectTitle="Trakr"
-        projectDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-        incidunt nam saepe exercitationem ipsam sapiente temporibus
-        consectetur ad harum quae, velit id voluptatem nesciunt
-        repellendus corporis mollitia. Explicabo, beatae modi."
+        projectDescription="Trakr is a full-stack app that helps track your stage in the application process, so you have all your applications easily accessible in one place. This project was completed for the Lighthouse Labs Wed Development Bootcamp final project."
       />
       <h3>Technology Used</h3>
       <div className="tech-stack" style={{ marginBottom: "20px" }}>
-        <Technology techUsed="JavaScript" />
-        <Technology techUsed="TypeScript" />
-        <Technology techUsed="React" />
+        <Technology techUsed="PostgreSQL" />
+        <Technology techUsed="Ruby" />
+        <Technology techUsed="Rails" />
+        <Technology techUsed="ReactJS" />
+        <Technology techUsed="Redux" />
+        <Technology techUsed="MaterialUI" />
       </div>
       <h3>See it Yourself</h3>
       <div className="links">
         <Link
-          githubLink="https://github.com/courtamos"
-          deployedLink="https://github.com/courtamos"
+          deployedLink="https://nostalgic-kalam-c12902.netlify.app/"
+          githubLink="https://github.com/courtamos/final-frontend"
         />
       </div>
     </section>
