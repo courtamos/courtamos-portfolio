@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "@formspree/react";
-import { Col, FormGroup } from "reactstrap";
-import { StyledForm, StyledInput, StyledButton } from "./styled";
+import { FormGroup } from "reactstrap";
+import { StyledForm, StyledColumn, StyledInput, StyledButton } from "./styled";
 
 export const ContactForm = () => {
   const [state, handleSubmit] = useForm("xbjqklgw");
@@ -17,26 +17,26 @@ export const ContactForm = () => {
   return (
     <StyledForm onSubmit={handleSubmit}>
       <FormGroup row>
-        <Col sm={10}>
+        <StyledColumn sm={10}>
           <StyledInput type="text" name="name" placeholder="Name" />
-        </Col>
-        <Col sm={10}>
+        </StyledColumn>
+        <StyledColumn sm={10}>
           <StyledInput type="email" name="email" placeholder="Email" />
-        </Col>
-        <Col sm={10}>
+        </StyledColumn>
+        <StyledColumn sm={10}>
           <StyledInput
             type="textarea"
             name="message"
             id="message"
-            rows="6"
+            rows="8"
             placeholder="Message"
           />
-        </Col>
-        <Col sm={10}>
+        </StyledColumn>
+        <StyledColumn sm={10}>
           <StyledButton type="submit" disabled={state.submitting}>
             SEND
           </StyledButton>
-        </Col>
+        </StyledColumn>
       </FormGroup>
     </StyledForm>
   );

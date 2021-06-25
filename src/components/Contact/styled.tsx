@@ -1,11 +1,33 @@
 import styled from "styled-components";
-import { Button, Form, Input } from "reactstrap";
+import { Button, Col, Form, Input } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+export const StyledDiv = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+
+export const StyledParagraph = styled.p`
+  padding: 5px;
+  color: #1f1f1f;
+`;
+
+export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
+  padding: 5px;
+  color: #1f1f1f;
+`;
 
 export const StyledForm = styled(Form)`
   text-align: center;
   border: #1f1f1f solid 2px;
   border-radius: 5px;
   padding: 40px;
+  margin-left: 200px;
+`;
+
+export const StyledColumn = styled(Col)`
+  width: 100%;
 `;
 
 export const StyledInput = styled(Input)`
