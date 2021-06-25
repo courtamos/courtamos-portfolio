@@ -13,13 +13,20 @@ const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
   bottom: 75px;
 `;
 
+const StyledBannerDiv = styled.div`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
+
 export const Banner = () => {
   return (
-    <section>
-      <div>
+    <section className="banner-section">
+      <StyledBannerDiv>
         <h1>Hey, I'm Courtney! 🍩</h1>
         <StyledIntroText>I'm a Junior Full-Stack Developer.</StyledIntroText>
-      </div>
+      </StyledBannerDiv>
       <StyledFontAwesomeIcon icon={faLongArrowAltDown} size="3x" />
     </section>
   );

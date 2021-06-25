@@ -1,5 +1,9 @@
-import { NavbarBrand, NavLink } from "reactstrap";
+import { Navbar, NavbarBrand, NavLink } from "reactstrap";
 import styled from "styled-components";
+
+export const StyledNavbar = styled(Navbar)`
+  background-color: #ffffff;
+`;
 
 export const StyledNavbarBrand = styled(NavbarBrand)`
   color: black;

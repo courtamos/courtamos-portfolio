@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { NavbarToggler, Collapse, Nav, Navbar, NavItem } from "reactstrap";
-import { StyledNavbarBrand, StyledNavLink } from "./styled";
+import { NavbarToggler, Collapse, Nav, NavItem } from "reactstrap";
+import { StyledNavbar, StyledNavbarBrand, StyledNavLink } from "./styled";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +8,7 @@ export const Navigation = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar expand="md">
+    <StyledNavbar expand="md" sticky="top">
       <StyledNavbarBrand href="/">Courtney Amos</StyledNavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} className="justify-content-end" navbar>
@@ -27,6 +27,6 @@ export const Navigation = () => {
           </NavItem>
         </Nav>
       </Collapse>
-    </Navbar>
+    </StyledNavbar>
   );
 };
