@@ -3,7 +3,7 @@ import { Experience } from "./Experience";
 
 export const About = () => {
   return (
-    <section>
+    <section id="about">
       <h1 style={{ margin: "50px 0px" }}>About</h1>
       <div>
         <p>

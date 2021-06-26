@@ -22,7 +22,7 @@ const StyledBannerDiv = styled.div`
 
 export const Banner = () => {
   return (
-    <section className="banner-section">
+    <section id="banner">
       <StyledBannerDiv>
         <h1>Hey, I'm Courtney! 🍩</h1>
         <StyledIntroText>I'm a Junior Full-Stack Developer.</StyledIntroText>

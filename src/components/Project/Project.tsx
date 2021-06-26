@@ -6,7 +6,7 @@ import project1 from "./images/project-1.png";
 
 export const Project = () => {
   return (
-    <section>
+    <section id="projects">
       <h1 style={{ margin: "50px 0px" }}>Projects</h1>
       <Image
         projectImage={project1}
