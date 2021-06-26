@@ -17,6 +17,10 @@ export const StyledForm = styled(Form)`
   border: #1f1f1f solid 2px;
   border-radius: 5px;
   padding: 40px;
+
+  @media (max-width: 992px) {
+    margin: 50px 0px;
+  }
 `;
 
 export const StyledColumn = styled(Col)`
