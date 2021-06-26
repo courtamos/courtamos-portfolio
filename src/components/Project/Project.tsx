@@ -23,7 +23,7 @@ export const Project = () => {
         <Technology techUsed="MaterialUI" />
       </div>
       <h3>See it Yourself</h3>
-      <div className="links">
+      <div style={{ display: "flex" }}>
         <Link
           deployedLink="https://nostalgic-kalam-c12902.netlify.app/"
           githubLink="https://github.com/courtamos/final-frontend"

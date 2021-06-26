@@ -1,4 +1,5 @@
 import React from "react";
+import { StyledDiv, StyledParagraph } from "./styled";
 
 interface Props {
   techUsed: string;
@@ -6,8 +7,8 @@ interface Props {
 
 export const Technology: React.FC<Props> = ({ techUsed }) => {
   return (
-    <div className="tech-item">
-      <p>{techUsed}</p>
-    </div>
+    <StyledDiv>
+      <StyledParagraph>{techUsed}</StyledParagraph>
+    </StyledDiv>
   );
 };
