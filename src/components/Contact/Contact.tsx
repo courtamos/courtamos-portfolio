@@ -8,7 +8,7 @@ import "./contact.scss";
 export const Contact = () => {
   return (
     <section id="contact">
-      <h1 style={{ margin: "50px 0px" }}>Contact</h1>
+      <h1 style={{ marginBottom: "30px" }}>Contact</h1>
       <Row lg={2} md={1} sm={1} xs={1}>
         <Col className="d-flex align-items-center">
           <div>

@@ -5,7 +5,7 @@ import { Col, Row } from "reactstrap";
 export const Tools = () => {
   return (
     <section id="tools">
-      <h1 style={{ margin: "50px 0px" }}>Tools</h1>
+      <h1 style={{ marginBottom: "30px" }}>Tools</h1>
       <p>
         I like to think of myself as being language agnostic, but here are some
         of the current tools I've been using.

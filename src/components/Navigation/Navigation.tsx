@@ -34,19 +34,6 @@ export const Navigation = () => {
           <NavItem>
             <StyledNavLink>
               <Link
-                to="projects"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={5}
-              >
-                Projects
-              </Link>
-            </StyledNavLink>
-          </NavItem>
-          <NavItem>
-            <StyledNavLink>
-              <Link
                 to="tools"
                 spy={true}
                 smooth={true}
@@ -57,6 +44,20 @@ export const Navigation = () => {
               </Link>
             </StyledNavLink>
           </NavItem>
+          <NavItem>
+            <StyledNavLink>
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={5}
+              >
+                Projects
+              </Link>
+            </StyledNavLink>
+          </NavItem>
+
           <NavItem>
             <StyledNavLink>
               <Link

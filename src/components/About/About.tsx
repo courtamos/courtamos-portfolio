@@ -3,8 +3,8 @@ import { AboutTimeline } from "./AboutTimeline";
 
 export const About = () => {
   return (
-    <section id="about">
-      <h1 style={{ margin: "50px 0px" }}>About</h1>
+    <section id="about" style={{ padding: "7% 8%" }}>
+      <h1 style={{ marginBottom: "30px" }}>About</h1>
       <div>
         <p>
           Before entering the tech world, I worked in the Social Service field

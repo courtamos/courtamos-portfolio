@@ -8,8 +8,8 @@ import project2 from "./images/project-2.png";
 
 export const Project = () => {
   return (
-    <section id="projects">
-      <h1 style={{ margin: "50px 0px" }}>Projects</h1>
+    <section id="projects" style={{ padding: "7% 8%" }}>
+      <h1 style={{ marginBottom: "30px" }}>Projects</h1>
       <Image
         projectImage={project1}
         projectTitle="Trakr"

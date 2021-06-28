@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 30px;
 `;
 

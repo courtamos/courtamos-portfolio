@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "reactstrap";
+import { Card } from "./components/Card";
 import { Navigation } from "./components/Navigation/Navigation";
 import { Banner } from "./components/Banner";
 import { About } from "./components/About/About";
@@ -10,15 +10,21 @@ import { Footer } from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <Container>
+    <div style={{ margin: "0px 50px" }}>
       <Navigation />
-      <Banner />
+      <Card height="100vh">
+        <Banner />
+      </Card>
       <About />
+      <Card>
+        <Tools />
+      </Card>
       <Project />
-      <Tools />
-      <Contact />
+      <Card>
+        <Contact />
+      </Card>
       <Footer />
-    </Container>
+    </div>
   );
 };
 
