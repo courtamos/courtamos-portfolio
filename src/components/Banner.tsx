@@ -25,7 +25,7 @@ export const Banner = () => {
     <section id="banner">
       <StyledBannerDiv>
         <h1>Hey, I'm Courtney! 🍩</h1>
-        <StyledIntroText>I'm a Junior Full-Stack Developer.</StyledIntroText>
+        <StyledIntroText>&& I'm a Full-Stack Developer.</StyledIntroText>
       </StyledBannerDiv>
       <StyledFontAwesomeIcon icon={faLongArrowAltDown} size="3x" />
     </section>

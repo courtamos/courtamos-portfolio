@@ -7,13 +7,16 @@ export const About = () => {
       <h1 style={{ margin: "50px 0px" }}>About</h1>
       <div>
         <p>
-          I’m a self-taught Front End Developer who’s been coding for xyz. Since
-          starting my coding journey I’ve worked on my own projects as well as
-          in a startup. I continue to learn everyday and embrace the crazy
-          process.
+          Before entering the tech world, I worked in the Social Service field
+          with a background in Criminology. I initially took up coding as a
+          hobby but quickly found myself enjoying it a lot more than my job at
+          the time. After realizing the passion I had for coding, I took a leap
+          and enrolled myself in a web development bootcamp. Since graduating, I
+          continue to learn every day and embrace the crazy process that comes
+          with being a developer.
         </p>
         <p>
-          Keep reading for more about me and how I've gotten to where I am ⬇️
+          Still want to know more about how I got here today? Keep scrolling ⬇️
         </p>
       </div>
       <Experience
@@ -21,28 +24,28 @@ export const About = () => {
         jobTitle="Full-Time Student"
         yearFrom={2015}
         yearTo={2019}
-        details="In 2019, after completing 4 years of full-time studies, I received my Bachelor of Arts Major in Criminology. During this time I completed a co-op with BC Community Corrections where I had the opportunity to explore the career of a Probation Officer."
+        details="After four years of being a full-time student, I graduated from Vancouver Island University with a Bachelor of Arts Major in Criminology. During this time I had the opportunity to intern at Saanich Community Corrections."
       />
       <Experience
         companyName="Surrounded By Cedar Child & Family Services"
         jobTitle="Intensive Youth Support Worker"
         yearFrom={2019}
         yearTo={2020}
-        details="After completing my degree I decided to pursue a career in the Social Services field. I worked with high-risk indigenous youth in care to create a safe space to make time specific goals."
+        details="After graduating from University, I decided to pursue a career in the Social Services field. I created individual service plans for Indigenous youth in care who engage in high-risk behavior that increased their overall wellbeing."
       />
       <Experience
         companyName="Built Better Technology"
         jobTitle="Designer & Developer"
         yearFrom={2020}
         yearTo={2021}
-        details="Worked a part of a startup as a Designer and transitioned into a Junior Developer role. Designed a variety of different websites and apps for both clients and contract companies. Contributed front end development to Building Blocks Content Management System."
+        details="Began a transition phase from my old career to a new career in tech. During this time I began designing custom websites and apps for clients. After a short while, I began learning some coding basics and had the opportunity to turn some of the designs into front-end production code."
       />
       <Experience
         companyName="Lighthouse Labs"
         jobTitle="Web Development Bootcamp"
         yearFrom={2021}
         yearTo={2021}
-        details="Graduated with a Diploma in Web Development after successfully completing the 12 week bootcamp that was 40hrs+ every week. Focusings on understanding coding logic using popular languages and frameworks."
+        details="Graduated with a Diploma in Web Development that enabled me to transform my hobby into a reality. While in bootcamp, I learned how to build software from the ground up using popular languages, frameworks, and best practices. During this time, I had the opportunity to create 2 full-stack apps as part of midterms and finals. "
       />
     </section>
   );

@@ -7,8 +7,8 @@ export const Tools = () => {
     <section id="tools">
       <h1 style={{ margin: "50px 0px" }}>Tools</h1>
       <p>
-        I like to think I'm language agnostic, but here are some of my favorite
-        tools right now
+        I like to think of myself as being language agnostic, but here are some
+        of the current tools I've been using.
       </p>
       <Row
         lg={3}

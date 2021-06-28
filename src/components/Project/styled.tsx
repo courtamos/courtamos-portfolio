@@ -28,3 +28,12 @@ export const StyledA = styled.a`
 export const StyledIconDiv = styled.div`
   margin-right: 20px;
 `;
+
+export const StyledTechnologyDiv = styled.div`
+  margin-bottom: 20px;
+`;
+
+export const StyledLinksDiv = styled.div`
+  display: flex;
+  margin-bottom: 50px;
+`;

@@ -18,7 +18,7 @@ export const Contact = () => {
               <br />
               Send me an email and let's chat!
             </StyledParagraph>
-            <h3>Some of my socials</h3>
+            <h3>My Socials</h3>
             <a
               href="https://github.com/courtamos"
               target="_blank"
