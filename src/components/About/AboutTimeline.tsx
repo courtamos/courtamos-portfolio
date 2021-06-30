@@ -4,12 +4,12 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGraduationCap,
   faDesktop,
   faChild,
 } from "@fortawesome/free-solid-svg-icons";
+import { StyledIcon } from "./styled";
 
 export const AboutTimeline = () => {
   return (
@@ -31,18 +31,7 @@ export const AboutTimeline = () => {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={
-            <FontAwesomeIcon
-              icon={faGraduationCap}
-              style={{
-                width: "40px",
-                height: "40px",
-                left: "auto",
-                top: "0%",
-                margin: "0px",
-              }}
-            />
-          }
+          icon={<StyledIcon icon={faGraduationCap} />}
         >
           <h2 className="vertical-timeline-element-title">
             Vancouver Island University
@@ -73,18 +62,7 @@ export const AboutTimeline = () => {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={
-            <FontAwesomeIcon
-              icon={faChild}
-              style={{
-                width: "40px",
-                height: "40px",
-                left: "auto",
-                top: "0%",
-                margin: "0px",
-              }}
-            />
-          }
+          icon={<StyledIcon icon={faChild} />}
         >
           <h2 className="vertical-timeline-element-title">
             Surrounded By Cedar Child & Family Services
@@ -115,18 +93,7 @@ export const AboutTimeline = () => {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={
-            <FontAwesomeIcon
-              icon={faDesktop}
-              style={{
-                width: "40px",
-                height: "40px",
-                left: "auto",
-                top: "0%",
-                margin: "0px",
-              }}
-            />
-          }
+          icon={<StyledIcon icon={faDesktop} />}
         >
           <h2 className="vertical-timeline-element-title">
             Built Better Technology
@@ -158,18 +125,7 @@ export const AboutTimeline = () => {
             justifyContent: "center",
             alignItems: "center",
           }}
-          icon={
-            <FontAwesomeIcon
-              icon={faGraduationCap}
-              style={{
-                width: "40px",
-                height: "40px",
-                left: "auto",
-                top: "0%",
-                margin: "0px",
-              }}
-            />
-          }
+          icon={<StyledIcon icon={faGraduationCap} />}
         >
           <h2 className="vertical-timeline-element-title">Lighthouse Labs</h2>
           <h3 className="vertical-timeline-element-subtitle">
