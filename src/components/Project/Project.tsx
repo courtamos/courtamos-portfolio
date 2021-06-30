@@ -5,6 +5,7 @@ import { Technology } from "./Technology";
 import { Link } from "./Link";
 import project1 from "./images/project-1.png";
 import project2 from "./images/project-2.png";
+import project3 from "./images/project-3.png";
 
 export const Project = () => {
   return (
@@ -23,6 +24,8 @@ export const Project = () => {
         <Technology techUsed="ReactJS" />
         <Technology techUsed="Redux" />
         <Technology techUsed="MaterialUI" />
+        <Technology techUsed="Netlify" />
+        <Technology techUsed="Heroku" />
       </StyledTechnologyDiv>
       <h3>See it Yourself</h3>
       <StyledLinksDiv>
@@ -49,6 +52,27 @@ export const Project = () => {
       <h3>See it Yourself</h3>
       <StyledLinksDiv>
         <Link githubLink="https://github.com/courtamos/scheduler" />
+      </StyledLinksDiv>
+      <Image
+        projectImage={project3}
+        projectTitle="Personal Portfolio"
+        projectDescription="This one is pretty self explanatory - it's what you're currently viewing! This portfolio was created to display some of my work and gave me an opportunity to work in TypeScript and with Styled Components. Additionally, the app is set up for continuous integration on Netlify."
+      />
+      <h3>Technology Used</h3>
+      <StyledTechnologyDiv>
+        <Technology techUsed="TypeScript" />
+        <Technology techUsed="ReactJS" />
+        <Technology techUsed="Styled Components" />
+        <Technology techUsed="Reactstrap" />
+        <Technology techUsed="SCSS" />
+        <Technology techUsed="Netlify" />
+      </StyledTechnologyDiv>
+      <h3>See it Yourself</h3>
+      <StyledLinksDiv>
+        <Link
+          githubLink="https://github.com/courtamos/courtamos-portfolio"
+          deployedLink="https://courtneyamos.netlify.app/"
+        />
       </StyledLinksDiv>
     </section>
   );
