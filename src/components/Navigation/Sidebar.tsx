@@ -3,7 +3,7 @@ import { Nav, NavItem } from "reactstrap";
 import { Link } from "react-scroll";
 import { StyledNavbar, StyledNavbarBrand, StyledNavLink } from "./styled";
 
-export const Navigation = () => {
+export const Sidebar = () => {
   return (
     <StyledNavbar>
       <StyledNavbarBrand>

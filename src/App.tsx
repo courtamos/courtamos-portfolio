@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Card } from "./components/Card";
-import { Navigation } from "./components/Navigation/Navigation";
+import { Sidebar } from "./components/Navigation/Sidebar";
+import { ToggleButton } from "./components/Navigation/ToggleButton";
 import { Banner } from "./components/Banner";
 import { About } from "./components/About/About";
 import { Project } from "./components/Project/Project";
 import { Tools } from "./components/Tools/Tools";
 import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer/Footer";
+import { MobileMenu } from "./components/Navigation/MobileMenu";
 
 const StyledMainDiv = styled.div`
   margin-left: 200px;
+
+  @media (max-width: 992px) {
+    margin-left: 0px;
+  }
 `;
 
 const StyledDesktopNav = styled.div`
@@ -30,11 +36,15 @@ const StyledDesktopNav = styled.div`
 `;
 
 const App = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div style={{ margin: "25px" }}>
       <StyledDesktopNav>
-        <Navigation />
+        <Sidebar />
       </StyledDesktopNav>
+      <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
+      <ToggleButton setIsOpen={setIsOpen} />
       <StyledMainDiv>
         <Card height="100vh">
           <Banner />
