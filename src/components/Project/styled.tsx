@@ -36,4 +36,8 @@ export const StyledTechnologyDiv = styled.div`
 export const StyledLinksDiv = styled.div`
   display: flex;
   margin-bottom: 50px;
+
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
 `;

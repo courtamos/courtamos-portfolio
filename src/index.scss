@@ -10,12 +10,20 @@ section#banner {
 body h1 {
   font-size: 60px;
   color: #1f1f1f;
+
+  @media (max-width: 576px) {
+    font-size: 40px;
+  }
 }
 
 body h2 {
   font-size: 30px;
   font-weight: 600;
   color: #1f1f1f;
+
+  @media (max-width: 576px) {
+    font-size: 20px;
+  }
 }
 
 body h3 {
@@ -23,13 +31,16 @@ body h3 {
   font-weight: 600;
   color: lightpink;
   text-transform: uppercase;
-}
 
-body h4 {
-  font-size: 15px;
-  color: #1f1f1f;
+  @media (max-width: 576px) {
+    font-size: 15px;
+  }
 }
 
 body p {
   font-size: 20px;
+
+  @media (max-width: 576px) {
+    font-size: 15px;
+  }
 }

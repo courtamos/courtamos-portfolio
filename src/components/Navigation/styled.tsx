@@ -2,13 +2,18 @@ import { Navbar, NavbarBrand, NavLink } from "reactstrap";
 import styled from "styled-components";
 
 export const StyledNavbar = styled(Navbar)`
-  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0px;
 `;
 
 export const StyledNavbarBrand = styled(NavbarBrand)`
-  color: black;
+  color: #ffffff;
+  margin-bottom: 50px;
   &:hover,
   .active {
+    cursor: pointer;
     color: pink;
     border-bottom: 2px solid pink;
     text-decoration: none;
@@ -16,10 +21,12 @@ export const StyledNavbarBrand = styled(NavbarBrand)`
 `;
 
 export const StyledNavLink = styled(NavLink)`
-  color: black;
-  padding-bottom: 3px;
+  color: #ffffff;
+  padding-left: 0px;
+  margin-bottom: 15px;
   &:hover,
   .active {
+    cursor: pointer;
     color: pink;
     border-bottom: 2px solid pink;
     text-decoration: none;
