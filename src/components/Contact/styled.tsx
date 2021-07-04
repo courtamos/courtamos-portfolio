@@ -16,7 +16,7 @@ export const StyledForm = styled(Form)`
   text-align: center;
   border: #1f1f1f solid 2px;
   border-radius: 5px;
-  padding: 40px;
+  padding: 50px 40px;
 
   @media (max-width: 992px) {
     margin: 50px 0px;

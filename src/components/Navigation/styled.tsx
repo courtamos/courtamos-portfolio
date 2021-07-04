@@ -11,11 +11,13 @@ export const StyledNavbar = styled(Navbar)`
 export const StyledNavbarBrand = styled(NavbarBrand)`
   color: #ffffff;
   margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
   &:hover,
   .active {
     cursor: pointer;
-    color: pink;
-    border-bottom: 2px solid pink;
+    color: #ff7096;
     text-decoration: none;
   }
 
@@ -26,13 +28,15 @@ export const StyledNavbarBrand = styled(NavbarBrand)`
 
 export const StyledNavLink = styled(NavLink)`
   color: #ffffff;
-  padding-left: 0px;
-  margin-bottom: 15px;
+  padding: 0px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
   &:hover,
   .active {
     cursor: pointer;
-    color: pink;
-    border-bottom: 2px solid pink;
+    color: #ff7096;
     text-decoration: none;
   }
 
@@ -41,6 +45,13 @@ export const StyledNavLink = styled(NavLink)`
     margin-bottom: 30px;
   }
 `;
+
+export const StyledParagraph = styled.p`
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 30px;
+`;
+
 interface ToggleProps {
   zIndex: number;
   display: "initial" | "none";

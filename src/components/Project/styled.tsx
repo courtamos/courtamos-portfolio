@@ -21,7 +21,7 @@ export const StyledA = styled.a`
   color: #1f1f1f;
 
   &:hover {
-    color: lightpink;
+    color: #ff7096;
   }
 `;
 

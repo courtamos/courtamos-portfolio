@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLongArrowAltDown } from "@fortawesome/free-solid-svg-icons";
 
 const StyledIntroText = styled.h1`
-  color: pink;
+  color: #ff7096;
 `;
 
 const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`

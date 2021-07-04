@@ -20,7 +20,7 @@ export const AboutTimeline = () => {
           contentStyle={{
             background: "#fffff",
             color: "#1f1f1f",
-            borderTop: "3px solid lightpink",
+            borderTop: "3px solid #ff7096",
           }}
           contentArrowStyle={{ borderRight: "7px solid #ffffff" }}
           date="SEP 2015 - APR 2019"
@@ -52,7 +52,7 @@ export const AboutTimeline = () => {
           contentStyle={{
             background: "#fffff",
             color: "#1f1f1f",
-            borderTop: "3px solid lightpink",
+            borderTop: "3px solid #ff7096",
           }}
           date="MAY 2019 - JUN 2020"
           iconStyle={{
@@ -83,7 +83,7 @@ export const AboutTimeline = () => {
           contentStyle={{
             background: "#fffff",
             color: "#1f1f1f",
-            borderTop: "3px solid lightpink",
+            borderTop: "3px solid #ff7096",
           }}
           date="JUN 2020 - MAR 2021"
           iconStyle={{
@@ -115,7 +115,7 @@ export const AboutTimeline = () => {
           contentStyle={{
             background: "#fffff",
             color: "#1f1f1f",
-            borderTop: "3px solid lightpink",
+            borderTop: "3px solid #ff7096",
           }}
           date="MAR 2021 - JUN 2021"
           iconStyle={{

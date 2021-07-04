@@ -14,16 +14,17 @@ import {
 const StyledMobileNav = styled.div<Pick<Props, "isOpen">>`
   width: 100vw;
   height: ${(props) => (props.isOpen ? "100vh" : "0px")};
+  overflow: hidden;
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   background-color: #1f1f1f;
-
   z-index: 101;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: height 1s cubic-bezier(0, 0, 0.2, 1);
 
   @media (min-width: 992px) {
     display: none;
@@ -47,21 +48,37 @@ export const MobileMenu: React.FC<Props> = ({ isOpen, setIsOpen }) => {
         <Nav vertical justified>
           <NavItem>
             <StyledNavLink>
-              <Link to="about" smooth={true} duration={5}>
+              <Link
+                to="about"
+                smooth={true}
+                duration={30}
+                onClick={() => setIsOpen(false)}
+              >
                 About
               </Link>
             </StyledNavLink>
           </NavItem>
           <NavItem>
             <StyledNavLink>
-              <Link to="tools" smooth={true} duration={5} offset={-100}>
+              <Link
+                to="tools"
+                smooth={true}
+                duration={30}
+                offset={-100}
+                onClick={() => setIsOpen(false)}
+              >
                 Tools
               </Link>
             </StyledNavLink>
           </NavItem>
           <NavItem>
             <StyledNavLink>
-              <Link to="projects" smooth={true} duration={5}>
+              <Link
+                to="projects"
+                smooth={true}
+                duration={30}
+                onClick={() => setIsOpen(false)}
+              >
                 Projects
               </Link>
             </StyledNavLink>
@@ -69,7 +86,12 @@ export const MobileMenu: React.FC<Props> = ({ isOpen, setIsOpen }) => {
 
           <NavItem>
             <StyledNavLink>
-              <Link to="contact" smooth={true} duration={5}>
+              <Link
+                to="contact"
+                smooth={true}
+                duration={30}
+                onClick={() => setIsOpen(false)}
+              >
                 Contact
               </Link>
             </StyledNavLink>
