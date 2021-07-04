@@ -21,6 +21,10 @@ export const StyledForm = styled(Form)`
   @media (max-width: 992px) {
     margin: 50px 0px;
   }
+
+  @media (max-width: 576px) {
+    padding: 30px;
+  }
 `;
 
 export const StyledColumn = styled(Col)`

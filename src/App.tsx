@@ -11,6 +11,14 @@ import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer/Footer";
 import { MobileMenu } from "./components/Navigation/MobileMenu";
 
+const StyledAppDiv = styled.div`
+  margin: 25px;
+
+  @media (max-width: 992px) {
+    margin: 10px;
+  } ;
+`;
+
 const StyledMainDiv = styled.div`
   margin-left: 200px;
 
@@ -39,7 +47,7 @@ const App = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div style={{ margin: "25px" }}>
+    <StyledAppDiv>
       <StyledDesktopNav>
         <Sidebar />
       </StyledDesktopNav>
@@ -59,7 +67,7 @@ const App = () => {
         </Card>
         <Footer />
       </StyledMainDiv>
-    </div>
+    </StyledAppDiv>
   );
 };
 
