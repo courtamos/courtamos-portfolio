@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const StyledDescription = styled.div`
+  @media (min-width: 576px) {
+    display: none;
+  }
+`;
+
 export const StyledDiv = styled.div`
   display: inline-block;
   background-color: #1f1f1f;
