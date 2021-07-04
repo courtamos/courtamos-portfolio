@@ -13,18 +13,16 @@ export const Image: React.FC<Props> = ({
   projectDescription,
 }) => {
   return (
-    <div className="project-wrapper">
-      <figure className="project-image">
-        <img src={projectImage} alt="project" />
-        <figcaption>
-          <div>
-            <h2>{projectTitle}</h2>
-          </div>
-          <div>
-            <p>{projectDescription}</p>
-          </div>
-        </figcaption>
-      </figure>
+    <div className="image">
+      <img src={projectImage} alt="project" className="image__img" />
+      <div className="image__overlay image__overlay--blur">
+        <div className="image__title">
+          <h2>{projectTitle}</h2>
+        </div>
+        <div className="image__description">
+          <p>{projectDescription}</p>
+        </div>
+      </div>
     </div>
   );
 };
