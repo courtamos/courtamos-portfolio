@@ -24,7 +24,7 @@ export const ContactForm = () => {
               type="textarea"
               name="message"
               id="message"
-              rows="12"
+              rows="13"
               placeholder="Message"
             />
           </StyledColumn>
@@ -52,7 +52,7 @@ export const ContactForm = () => {
             type="textarea"
             name="message"
             id="message"
-            rows="12"
+            rows="13"
             placeholder="Message"
           />
         </StyledColumn>

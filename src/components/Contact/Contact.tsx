@@ -8,10 +8,16 @@ import "./contact.scss";
 export const Contact = () => {
   return (
     <section id="contact">
-      <h1 style={{ marginBottom: "30px" }}>Contact</h1>
+      <h1
+        style={{ marginBottom: "30px" }}
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
+        Contact
+      </h1>
       <Row lg={2} md={1} sm={1} xs={1}>
         <Col className="d-flex align-items-center">
-          <div>
+          <div data-aos="fade-up" data-aos-duration="800">
             <h2>Get In Touch 📥</h2>
             <StyledParagraph>
               Have a question?
@@ -44,7 +50,9 @@ export const Contact = () => {
           </div>
         </Col>
         <Col>
-          <ContactForm />
+          <div data-aos="fade-up" data-aos-duration="800">
+            <ContactForm />
+          </div>
         </Col>
       </Row>
     </section>

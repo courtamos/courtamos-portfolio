@@ -23,7 +23,7 @@ const StyledBannerDiv = styled.div`
 export const Banner = () => {
   return (
     <section id="banner">
-      <StyledBannerDiv>
+      <StyledBannerDiv data-aos="fade-up" data-aos-duration="800">
         <h1>Hey, I'm Courtney! 🍩</h1>
         <StyledIntroText>&& I'm a Full-Stack Developer.</StyledIntroText>
       </StyledBannerDiv>

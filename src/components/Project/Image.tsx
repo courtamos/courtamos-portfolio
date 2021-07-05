@@ -15,7 +15,7 @@ export const Image: React.FC<Props> = ({
 }) => {
   return (
     <>
-      <div className="image">
+      <div className="image" data-aos="fade-up" data-aos-duration="800">
         <img src={projectImage} alt="project" className="image__img" />
         <div className="image__overlay image__overlay--blur">
           <div className="image__title">

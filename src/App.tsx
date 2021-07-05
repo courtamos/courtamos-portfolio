@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Card } from "./components/Card";
 import { Sidebar } from "./components/Navigation/Sidebar";
@@ -10,6 +10,8 @@ import { Tools } from "./components/Tools/Tools";
 import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer/Footer";
 import { MobileMenu } from "./components/Navigation/MobileMenu";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const StyledAppDiv = styled.div`
   margin: 25px;
@@ -45,6 +47,13 @@ const StyledDesktopNav = styled.div`
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("load", function () {
+      AOS.init();
+      /// everything in the page has loaded now
+    });
+  }, []);
 
   return (
     <StyledAppDiv>

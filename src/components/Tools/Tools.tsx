@@ -5,8 +5,14 @@ import { Col, Row } from "reactstrap";
 export const Tools = () => {
   return (
     <section id="tools">
-      <h1 style={{ marginBottom: "30px" }}>Tools</h1>
-      <p>
+      <h1
+        style={{ marginBottom: "30px" }}
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
+        Tools
+      </h1>
+      <p data-aos="fade-up" data-aos-duration="800">
         I like to think of myself as being language agnostic, but here are some
         of the current tools I've been using.
       </p>
@@ -16,6 +22,8 @@ export const Tools = () => {
         sm={1}
         xs={1}
         className="d-flex justify-content-space-between"
+        data-aos="fade-up"
+        data-aos-duration="800"
       >
         <Col>
           <ToolColumn
