@@ -7,7 +7,7 @@ export const StyledFooter = styled.footer`
 `;
 
 export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-  color: firebrick;
+  color: #ff7096;
 `;
 
 export const StyledParagraph = styled.p`

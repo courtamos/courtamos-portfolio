@@ -51,7 +51,7 @@ export const Project = () => {
       <Image
         projectImage={project2}
         projectTitle="Scheduler"
-        projectDescription="Using the latest tools and technologies, Scheduler is a React application that allows users to book and cancel interviews. Created as a part of the Lighthouse Labs curriculum."
+        projectDescription="Scheduler is a React application that allows users to book and cancel interviews. This project was created as a part of the Lighthouse Labs curriculum and served as a way to learn React and front-end testing."
       />
       <h3 data-aos="fade-up" data-aos-duration="800">
         Technology Used

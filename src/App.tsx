@@ -51,7 +51,6 @@ const App = () => {
   useEffect(() => {
     window.addEventListener("load", function () {
       AOS.init();
-      /// everything in the page has loaded now
     });
   }, []);
 
